@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89AC25C61F50058900F95447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC25C51F50058900F95447 /* main.m */; };
+		89AC25C91F50058900F95447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC25C81F50058900F95447 /* AppDelegate.m */; };
+		89AC25CC1F50058900F95447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC25CB1F50058900F95447 /* ViewController.m */; };
+		89AC25CF1F50058900F95447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AC25CD1F50058900F95447 /* Main.storyboard */; };
+		89AC25D11F50058900F95447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AC25D01F50058900F95447 /* Assets.xcassets */; };
+		89AC25D41F50058900F95447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AC25D21F50058900F95447 /* LaunchScreen.storyboard */; };
+		89AC25DF1F50058900F95447 /* sadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC25DE1F50058900F95447 /* sadaTests.m */; };
+		89AC25EA1F50058900F95447 /* sadaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC25E91F50058900F95447 /* sadaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89AC25DB1F50058900F95447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AC25B91F50058900F95447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AC25C01F50058900F95447;
+			remoteInfo = sada;
+		};
+		89AC25E61F50058900F95447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AC25B91F50058900F95447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AC25C01F50058900F95447;
+			remoteInfo = sada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89AC25C11F50058900F95447 /* sada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AC25C51F50058900F95447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89AC25C71F50058900F95447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89AC25C81F50058900F95447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89AC25CA1F50058900F95447 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89AC25CB1F50058900F95447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89AC25CE1F50058900F95447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89AC25D01F50058900F95447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89AC25D31F50058900F95447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89AC25D51F50058900F95447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AC25DA1F50058900F95447 /* sadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AC25DE1F50058900F95447 /* sadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadaTests.m; sourceTree = "<group>"; };
+		89AC25E01F50058900F95447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AC25E51F50058900F95447 /* sadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AC25E91F50058900F95447 /* sadaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadaUITests.m; sourceTree = "<group>"; };
+		89AC25EB1F50058900F95447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89AC25BE1F50058900F95447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25D71F50058900F95447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25E21F50058900F95447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89AC25B81F50058900F95447 = {
+			isa = PBXGroup;
+			children = (
+				89AC25C31F50058900F95447 /* sada */,
+				89AC25DD1F50058900F95447 /* sadaTests */,
+				89AC25E81F50058900F95447 /* sadaUITests */,
+				89AC25C21F50058900F95447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89AC25C21F50058900F95447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AC25C11F50058900F95447 /* sada.app */,
+				89AC25DA1F50058900F95447 /* sadaTests.xctest */,
+				89AC25E51F50058900F95447 /* sadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89AC25C31F50058900F95447 /* sada */ = {
+			isa = PBXGroup;
+			children = (
+				89AC25C71F50058900F95447 /* AppDelegate.h */,
+				89AC25C81F50058900F95447 /* AppDelegate.m */,
+				89AC25CA1F50058900F95447 /* ViewController.h */,
+				89AC25CB1F50058900F95447 /* ViewController.m */,
+				89AC25CD1F50058900F95447 /* Main.storyboard */,
+				89AC25D01F50058900F95447 /* Assets.xcassets */,
+				89AC25D21F50058900F95447 /* LaunchScreen.storyboard */,
+				89AC25D51F50058900F95447 /* Info.plist */,
+				89AC25C41F50058900F95447 /* Supporting Files */,
+			);
+			path = sada;
+			sourceTree = "<group>";
+		};
+		89AC25C41F50058900F95447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89AC25C51F50058900F95447 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89AC25DD1F50058900F95447 /* sadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				89AC25DE1F50058900F95447 /* sadaTests.m */,
+				89AC25E01F50058900F95447 /* Info.plist */,
+			);
+			path = sadaTests;
+			sourceTree = "<group>";
+		};
+		89AC25E81F50058900F95447 /* sadaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89AC25E91F50058900F95447 /* sadaUITests.m */,
+				89AC25EB1F50058900F95447 /* Info.plist */,
+			);
+			path = sadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89AC25C01F50058900F95447 /* sada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AC25EE1F50058900F95447 /* Build configuration list for PBXNativeTarget "sada" */;
+			buildPhases = (
+				89AC25BD1F50058900F95447 /* Sources */,
+				89AC25BE1F50058900F95447 /* Frameworks */,
+				89AC25BF1F50058900F95447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sada;
+			productName = sada;
+			productReference = 89AC25C11F50058900F95447 /* sada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89AC25D91F50058900F95447 /* sadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AC25F11F50058900F95447 /* Build configuration list for PBXNativeTarget "sadaTests" */;
+			buildPhases = (
+				89AC25D61F50058900F95447 /* Sources */,
+				89AC25D71F50058900F95447 /* Frameworks */,
+				89AC25D81F50058900F95447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89AC25DC1F50058900F95447 /* PBXTargetDependency */,
+			);
+			name = sadaTests;
+			productName = sadaTests;
+			productReference = 89AC25DA1F50058900F95447 /* sadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89AC25E41F50058900F95447 /* sadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AC25F41F50058900F95447 /* Build configuration list for PBXNativeTarget "sadaUITests" */;
+			buildPhases = (
+				89AC25E11F50058900F95447 /* Sources */,
+				89AC25E21F50058900F95447 /* Frameworks */,
+				89AC25E31F50058900F95447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89AC25E71F50058900F95447 /* PBXTargetDependency */,
+			);
+			name = sadaUITests;
+			productName = sadaUITests;
+			productReference = 89AC25E51F50058900F95447 /* sadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89AC25B91F50058900F95447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李龙";
+				TargetAttributes = {
+					89AC25C01F50058900F95447 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZHR3SCPQ6E;
+						ProvisioningStyle = Automatic;
+					};
+					89AC25D91F50058900F95447 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZHR3SCPQ6E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89AC25C01F50058900F95447;
+					};
+					89AC25E41F50058900F95447 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZHR3SCPQ6E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89AC25C01F50058900F95447;
+					};
+				};
+			};
+			buildConfigurationList = 89AC25BC1F50058900F95447 /* Build configuration list for PBXProject "sada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89AC25B81F50058900F95447;
+			productRefGroup = 89AC25C21F50058900F95447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89AC25C01F50058900F95447 /* sada */,
+				89AC25D91F50058900F95447 /* sadaTests */,
+				89AC25E41F50058900F95447 /* sadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89AC25BF1F50058900F95447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC25D41F50058900F95447 /* LaunchScreen.storyboard in Resources */,
+				89AC25D11F50058900F95447 /* Assets.xcassets in Resources */,
+				89AC25CF1F50058900F95447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25D81F50058900F95447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25E31F50058900F95447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89AC25BD1F50058900F95447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC25CC1F50058900F95447 /* ViewController.m in Sources */,
+				89AC25C91F50058900F95447 /* AppDelegate.m in Sources */,
+				89AC25C61F50058900F95447 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25D61F50058900F95447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC25DF1F50058900F95447 /* sadaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AC25E11F50058900F95447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC25EA1F50058900F95447 /* sadaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89AC25DC1F50058900F95447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89AC25C01F50058900F95447 /* sada */;
+			targetProxy = 89AC25DB1F50058900F95447 /* PBXContainerItemProxy */;
+		};
+		89AC25E71F50058900F95447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89AC25C01F50058900F95447 /* sada */;
+			targetProxy = 89AC25E61F50058900F95447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89AC25CD1F50058900F95447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AC25CE1F50058900F95447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89AC25D21F50058900F95447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AC25D31F50058900F95447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89AC25EC1F50058900F95447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89AC25ED1F50058900F95447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89AC25EF1F50058900F95447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89AC25F01F50058900F95447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89AC25F21F50058900F95447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sada.app/sada";
+			};
+			name = Debug;
+		};
+		89AC25F31F50058900F95447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sada.app/sada";
+			};
+			name = Release;
+		};
+		89AC25F51F50058900F95447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sada;
+			};
+			name = Debug;
+		};
+		89AC25F61F50058900F95447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = sadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.sadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89AC25BC1F50058900F95447 /* Build configuration list for PBXProject "sada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AC25EC1F50058900F95447 /* Debug */,
+				89AC25ED1F50058900F95447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AC25EE1F50058900F95447 /* Build configuration list for PBXNativeTarget "sada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AC25EF1F50058900F95447 /* Debug */,
+				89AC25F01F50058900F95447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AC25F11F50058900F95447 /* Build configuration list for PBXNativeTarget "sadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AC25F21F50058900F95447 /* Debug */,
+				89AC25F31F50058900F95447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AC25F41F50058900F95447 /* Build configuration list for PBXNativeTarget "sadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AC25F51F50058900F95447 /* Debug */,
+				89AC25F61F50058900F95447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89AC25B91F50058900F95447 /* Project object */;
+}
